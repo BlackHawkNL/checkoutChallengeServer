@@ -1,0 +1,24 @@
+{
+  "name": "adyen",
+  "version": "0.0.1",
+  "description": "Adyen Checkout Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,md index.js"
+  },
+  "author": "Nick van Gilst",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/glue": "^8.0.0",
+    "@hapi/hapi": "^20.0.1",
+    "axios": "^0.20.0",
+    "confidence": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "joi": "^17.2.1",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.1"
+  }
+}
